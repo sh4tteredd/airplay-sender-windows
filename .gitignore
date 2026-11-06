@@ -1,0 +1,30 @@
+# Build outputs
+bin/
+obj/
+build/
+artifacts/
+*.user
+*.suo
+*.vcxproj.user
+*.pfx
+*.cer
+
+# Native build trees
+third_party/airplay2-sender-cpp/build*/
+third_party/airplay2-sender-cpp/_deps/
+third_party/airplay2-sender-cpp/CMakeFiles/
+third_party/airplay2-sender-cpp/CMakeCache.txt
+third_party/airplay2-sender-cpp/*.sln
+third_party/airplay2-sender-cpp/*.vcxproj*
+
+# Runtime logs and settings
+logs/
+*.log
+*.tmp
+
+# OS / editor
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db
+

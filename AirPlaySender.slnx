@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AirPlaySender.App/AirPlaySender.App.csproj" />
+    <Project Path="src/AirPlaySender.Core/AirPlaySender.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AirPlaySender.Smoke/AirPlaySender.Smoke.csproj" />
+  </Folder>
+</Solution>

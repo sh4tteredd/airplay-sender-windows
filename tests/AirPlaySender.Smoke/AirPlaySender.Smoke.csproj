@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\AirPlaySender.Core\AirPlaySender.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\build\native\bin\Release\AirPlayCore.dll"
+             Condition="Exists('..\..\build\native\bin\Release\AirPlayCore.dll')">
+      <Link>AirPlayCore.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
